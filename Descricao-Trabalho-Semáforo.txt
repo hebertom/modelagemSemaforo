@@ -1,0 +1,8 @@
+Trabalho Modelagem 
+
+Simular um cruzamento de trânsito, calcular o tempo de fila dos carros, vai ter um semáforo 2 tempos(4 semáforos) só pode ir em linha reta, não pode virar.Gerar uma probabilidade aleatória de chegar um carro em cada rua . 0,5s pra cada carro atravessar. 
+
+Obs: QUando abrir o semáforo, liberar as filas, cada carro passa em 0,5s. 
+
+No final criar um relatório com quanto tempo médio cada carro fica parado em cada semáforo . Contar por 2-3min, o tempo médio de cada carro no semáforo. E tentar dispor de uma solução para melhorar os tempos médios. 
+Relatório deve conter todos os carros, tempo de entrada, tempo de saida, tempo de fila, e tempo gasto total.
