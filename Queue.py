@@ -1,3 +1,4 @@
+from Node import Node
 class Queue:
   def __init__(self):
     self.length = 0

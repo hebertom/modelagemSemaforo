@@ -1,10 +1,9 @@
 class Semaforo(object):
-
-	estado = False
 	num_carros = 0
 	t_medio_espera = 0
 
-	def __init__(self):
+	def __init__(self, estado):
+		self.estado = estado
 		self.num_carros = 0
 		self.t_medio_espera = 0
 
@@ -28,3 +27,13 @@ class Semaforo(object):
 
 	def getT_Medio_Espera(self):
 		return self.t_medio_espera
+
+	def getEstado(self):
+		return self.estado
+
+	def estaVazio(self):
+		return self.num_carros <= 0
+
+	def removeCarro(self):
+		if self.num_carros > 0:
+			self.num_carros = self.num_carros - 4
