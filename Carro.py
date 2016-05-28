@@ -1,5 +1,3 @@
-#Objeto Carro
-
 class Carro(object):
 
 	def __init__(self):

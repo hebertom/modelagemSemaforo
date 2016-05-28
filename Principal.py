@@ -14,6 +14,7 @@ import Semaforo
 import Carro
 import Queue
 import time
+import random
 
 class Principal():
 
@@ -40,16 +41,18 @@ class Principal():
                 s3.mudaEstado()
                 s4.mudaEstado()
                 break
-
             #Fazer a lógica de chegar carros aleatóriamente em todas as filas
-
-
-
-
-
-
-
-
-
-
-
+            prox_carro = random.randint(1,4)
+            if(prox_carro == 1):
+                fila1.insert()
+                break
+            elif(prox_carro == 2):
+                fila2.insert()
+                break
+            elif(prox_carro == 3):
+                fila3.insert()
+                break
+            else:
+                fila4.insert()
+                break
+    

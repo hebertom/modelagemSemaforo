@@ -10,13 +10,13 @@ class Queue:
     node = Node(cargo)
     node.next = None
     if self.head == None:
-      # if list is empty the new node goes first
+      
       self.head = node
     else:
-      # find the last node in the list
+      
       last = self.head
       while last.next: last = last.next
-      # append the new node
+      
       last.next = node
     self.length = self.length + 1
 
